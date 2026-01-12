@@ -6,6 +6,7 @@ import Atharv from "./pages/Atharv";
 import Nikhil from "./pages/Nikhil";
 import Vinit from "./pages/Vinit";
 import Portfolio from "./pages/Portfolio";
+import Himanshu from "./pages/Himanshu";
 
 function App() {
   return (
