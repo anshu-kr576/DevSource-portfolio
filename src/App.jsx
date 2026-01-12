@@ -5,6 +5,7 @@ import Khushi from "./pages/Khushi";
 import Atharv from "./pages/Atharv";
 import Nikhil from "./pages/Nikhil";
 import Portfolio from './pages/Portfolio';
+import Himanshu from './pages/Himanshu';
 
 function App() {
   return (
@@ -43,6 +44,15 @@ function App() {
         element={
           <div className="portfolio-jiya">
             <Portfolio />
+          </div>
+        }
+      />
+
+      <Route
+        path="/Himanshu"
+        element={
+          <div className="himanshu-portfolio">
+            <Himanshu />
           </div>
         }
       />
