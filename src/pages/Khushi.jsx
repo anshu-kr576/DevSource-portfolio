@@ -2,7 +2,7 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import UniverseBG from "../components/UniverseBG";
-import "./khushi.css";
+import "./Khushi.css";
 
 export default function Khushi() {
   const mx = useMotionValue(0);
